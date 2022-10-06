@@ -1,73 +1,72 @@
 body {
-     margin: 0px;
+margin: 0px;
 }
 
 .img {
-     width: 50%; 
-    
+width: 50%; 
+min-width: 430px;
 }
 
 .bi {
-    
-    width: 100%;
+width: 100%;
 }
 
 .all {
-    display: block; border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    border-bottom-width: 0px;
+display: block; border-style: solid;
+border-color: black;
+border-width: 3px;
+border-bottom-width: 0px;
 }
 
 .content, .img {
-    display: inline-block;
+display: inline-block;
 }
 
 .content {
-    width: 40%; 
-    vertical-align: top;
-    margin: 35px 30px 0px 20px;
+width: 40%; 
+vertical-align: top;
+margin: 35px 30px 0px 20px;
+min-width:430px;
 }
 
 .gl {
-    width: 10%;
-   
+width: 10%;
 }
 
 p {
-    color: grey;
-    margin-top: 20px;
-    margin-bottom: 20px;
+color: grey;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .in {
-    vertical-align: middle;
-    height: max-content;
+vertical-align: middle;
+height: max-content;
 }
 
-    input[type=text], input[type=number] {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 20px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type=text], input[type=number] {
+width: 90%;
+padding: 12px 20px;
+margin: 20px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
 }
   
-    input[type=submit] {
-    width: 90%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 20px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type=submit] {
+width: 90%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 20px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
   
-    input[type=submit]:hover {
-    background-color: #45a049;
+input[type=submit]:hover {
+background-color: #45a049;
 }
   
 
